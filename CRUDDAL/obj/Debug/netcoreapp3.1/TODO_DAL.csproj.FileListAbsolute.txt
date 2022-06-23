@@ -1,0 +1,12 @@
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\TODO_DAL.deps.json
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\TODO_DAL.runtimeconfig.json
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\TODO_DAL.runtimeconfig.dev.json
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\TODO_DAL.dll
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\TODO_DAL.pdb
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\TODO_DAL.AssemblyInfoInputs.cache
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\TODO_DAL.AssemblyInfo.cs
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\TODO_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\TODO_DAL.dll
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\TODO_DAL.pdb
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\TODO_DAL.genruntimeconfig.cache
+C:\Users\Ruchira\Downloads\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\TODO_DAL.csprojAssemblyReference.cache

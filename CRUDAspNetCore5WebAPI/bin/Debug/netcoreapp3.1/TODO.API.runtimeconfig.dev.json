@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Ruchira\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Ruchira\\.nuget\\packages"
+    ]
+  }
+}
