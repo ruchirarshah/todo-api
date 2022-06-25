@@ -1,6 +1,7 @@
 ﻿using CRUD_BAL.Service;
 using CRUD_DAL.Interface;
 using CRUD_DAL.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -8,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TODO.API.Requests;
 
 namespace CRUDAspNetCore5WebAPI.Controllers
 {
@@ -27,6 +29,7 @@ namespace CRUDAspNetCore5WebAPI.Controllers
         }
         
         [HttpPost("Add")]
+        
         public async Task<Object> Add([FromBody] ToDoTask Task)
         {
             try
@@ -41,26 +44,14 @@ namespace CRUDAspNetCore5WebAPI.Controllers
             }
         }
        
-        [HttpDelete("Delete")]
-        public bool DeletePerson(int id)
-        {
-            try
-            {
-                _toDoService.DeleteTask(id);
-                return true;
-            }
-            catch (Exception)
-            {
-                return false;
-            }
-        }
-        
+      
         [HttpPut("Update")]
-        public bool Update(ToDoTask Object)
+       
+        public bool Update(UpdateRequest request)
         {
             try
             {
-                _toDoService.UpdateTask(Object);
+                _toDoService.UpdateTask(request.Id,request.TaskName,request.IsDeleted,request.IsComplete);
                 return true;
             }
             catch (Exception)
@@ -70,6 +61,7 @@ namespace CRUDAspNetCore5WebAPI.Controllers
         }
 
         [HttpGet("GetAll")]
+        
         public Object GetAll()
         {
             var data = _toDoService.GetAllToDoTasks();

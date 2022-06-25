@@ -39,6 +39,10 @@ namespace CRUDAspNetCore5WebAPI
             services.AddTransient<IRepository<ToDoTask>, ToDoRepository>();
             services.AddTransient<ToDoService, ToDoService>();
             services.AddControllers();
+            services.AddCors(c =>
+            {
+                c.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CRUDAspNetCore5WebAPI", Version = "v1" });
@@ -56,7 +60,7 @@ namespace CRUDAspNetCore5WebAPI
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors("Open");
             app.UseRouting();
 
             app.UseAuthorization();
